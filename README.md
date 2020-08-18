@@ -23,3 +23,7 @@ Run it to do the same thing, but locally.
 The required file location: `.github/gh-deploy.sh`.
 
 It does not require to have the token.
+
+---
+
+[Here is the demo repository](https://github.com/AlttiRi/formatted-number) that uses it.
