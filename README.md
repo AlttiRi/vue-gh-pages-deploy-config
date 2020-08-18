@@ -5,7 +5,7 @@ The example config file for Github Actions for automatic building and deploying 
 
 The required file location: `.github/workflows/blank.yml`.
 
-It requires to add `ACCESS_TOKEN` _((Profile) Settings -> Developer settings -> Personal access tokens)_ as a secret in the repository settings. Only `public_repo` permission for the token is required.
+It requires to add `ACCESS_TOKEN` _((Profile) Settings -> Developer settings -> Personal access tokens)_ as a secret in the _repository_ settings. Only `public_repo` permission for the token is required.
 
 How it works (in general):
 - Trigger on commit to `master` branch
