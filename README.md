@@ -23,9 +23,7 @@ Run it to do the same thing, but locally.
 
 It does not require to have the token.
 
----
-
-### DO NOT FORGOT TO CHANGE IT
+DO NOT FORGOT TO CHANGE IT
 ```bash
 repo_name="<REPO>";   
 owner_name="<USER>";
