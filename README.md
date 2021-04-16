@@ -25,10 +25,10 @@ It does not require to have the token.
 
 DO NOT FORGOT TO CHANGE IT
 ```bash
-repo_name="<REPO>";   
+repo_name="<REPO>";
 owner_name="<USER>";
 ```
-in `gh-deploy.sh`.
+in `gh-deploy.sh`. (You do not need to it in `blank.yml`)
 
 For example:
 ```bash
