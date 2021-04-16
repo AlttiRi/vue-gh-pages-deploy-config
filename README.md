@@ -28,7 +28,7 @@ DO NOT FORGOT TO CHANGE IT
 repo_name="<REPO>";
 owner_name="<USER>";
 ```
-in `gh-deploy.sh`. (You do not need to do it in `blank.yml`)
+in `gh-deploy.sh`.
 
 For example:
 ```bash
