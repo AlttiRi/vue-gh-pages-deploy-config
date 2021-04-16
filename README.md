@@ -40,4 +40,4 @@ owner_name="committer-name";  # It's just displayed commiter name.
 
 ---
 
-[Here is the demo repository](https://github.com/AlttiRi/formatted-number) that uses it.
+[Here is the demo repository](https://github.com/AlttiRi/formatted-number-vue3) that uses it.
