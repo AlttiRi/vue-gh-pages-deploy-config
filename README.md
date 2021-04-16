@@ -15,7 +15,7 @@ How it works (in general):
 - Pull commit history (if exists) for the branch that is used as a source for Github Pages – `gh-pages` (default)
 - Check is it the last commit and are there changes, and if it's true, commit the changes with `Deploy` (default) message and push it to `gh-pages` (default) branch.
 
-## gh-deploy.sh
+## gh-deploy.sh (optional)
 
 Run it to do the same thing, but locally: it **fetches the content from `remote/master`**, then `build`, then pushes it to `remote/.gh-pages`.
 
