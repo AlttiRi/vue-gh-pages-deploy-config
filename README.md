@@ -36,6 +36,8 @@ repo_name="your-repo-name";   # It's important thing. The repo name where to pus
 owner_name="committer-name";  # It's just displayed commiter name.
 ```
 
+_Note: `gh-deploy.sh` works only if the remote repo contains any content._
+
 ---
 
 [Here is the demo repository](https://github.com/AlttiRi/formatted-number-vue3) that uses it.
