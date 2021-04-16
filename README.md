@@ -17,7 +17,7 @@ How it works (in general):
 
 ## gh-deploy.sh
 
-Run it to do the same thing, but locally.
+Run it to do the same thing, but locally: it **fetches the content from `remote/master`**, then `build`, then pushes it to `remote/.gh-pages`.
 
 **The required file location: `.github/gh-deploy.sh`.**
 
@@ -35,8 +35,6 @@ For example:
 repo_name="your-repo-name";   # It's important thing. The repo name where to push.
 owner_name="committer-name";  # It's just displayed commiter name.
 ```
-
-_Note: `gh-deploy.sh` works only if the remote repo contains any content._
 
 ---
 
