@@ -3,7 +3,7 @@
 
 The example config file for Github Actions for automatic building and deploying a site to Github Pages.
 
-The required file location: `.github/workflows/blank.yml`.
+**The required file location: `.github/workflows/blank.yml`.**
 
 It requires to add `ACCESS_TOKEN` _((Profile) Settings -> Developer settings -> [Personal access tokens](https://github.com/settings/tokens))_ as a secret in the _repository_ settings. Only `public_repo` permission for the token is required.
 
@@ -19,7 +19,7 @@ How it works (in general):
 
 Run it to do the same thing, but locally.
 
-The required file location: `.github/gh-deploy.sh`.
+**The required file location: `.github/gh-deploy.sh`.**
 
 It does not require to have the token.
 
