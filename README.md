@@ -1,7 +1,7 @@
 
 ## blank.yml
 
-The example config file for Github Actions for automatic building and deploying a site to Github Pages.
+The example config file for GitHub Actions for automatic building and deploying a site to Github Pages.
 
 **The required file location: `.github/workflows/blank.yml`.**
 
@@ -14,27 +14,6 @@ How it works (in general):
 - Init the Git in this folder
 - Pull commit history (if exists) for the branch that is used as a source for Github Pages – `gh-pages` (default)
 - Check is it the last commit and are there changes, and if it's true, commit the changes with `Deploy` (default) message and push it to `gh-pages` (default) branch.
-
-## gh-deploy.sh (optional)
-
-Run it to do the same thing, but locally: it **fetches the content from `remote/master`**, then `build`, then pushes it to `remote/.gh-pages`.
-
-**The required file location: `.github/gh-deploy.sh`.**
-
-It does not require to have the token.
-
-DO NOT FORGOT TO CHANGE IT
-```bash
-repo_name="<REPO>";
-owner_name="<USER>";
-```
-in `gh-deploy.sh`.
-
-For example:
-```bash
-repo_name="your-repo-name";   # It's important thing. The repo name where to push.
-owner_name="committer-name";  # It's just displayed commiter name.
-```
 
 ---
 
