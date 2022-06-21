@@ -3,7 +3,7 @@
 
 The example config file for GitHub Actions for automatic building and deploying a site to Github Pages.
 
-**The required file location:
+**The required file location:**
 ```
 .github/workflows/blank.yml
 ```
