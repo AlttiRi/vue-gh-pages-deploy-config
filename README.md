@@ -10,8 +10,8 @@ What you need to do:
 3. Make a commit and push it to GitHub.
     - _Now the GitHub will start to use the config._
 4. Do any additional commit and push it to GitHub to trigger GitHub Action. 
-    - _It will create `.gh-pages` branch with the built application content (the `dist` folder)._    
-    - _Do not forget to add to git `package-lock.json` file, since the script uses `npm ci`._
+    - _It will create `gh-pages` branch with the built application content (the `dist` folder)._    
+    - _Do not forget to add to git `package-lock.json` file, since the script uses [`npm ci`](https://docs.npmjs.com/cli/v9/commands/npm-ci)._
     - _You should see the follow:_
     
     ![image](https://user-images.githubusercontent.com/16310547/211168995-2eea663f-25f1-45a8-893d-9549e779d9b3.png)
