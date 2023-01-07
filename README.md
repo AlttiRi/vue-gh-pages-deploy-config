@@ -1,7 +1,6 @@
-
 ## Vue.js GitHub Actions deploy config to GitHub Pages
 
-Vue.js example config for automatic builing and deploing of an application to GitHub Pages with GitHub Actions.
+Vue.js example config for automatic building and deploying of an application to GitHub Pages with GitHub Actions.
 
 What you need to do:
 
@@ -36,9 +35,9 @@ What you need to do:
 How the action works (in general):
 - Fires on a commit to `master`/`main` branch
 - Installs the dependencies with `npm ci` and build the project with `npm run build`
-- Copies `dist/` folder to the temporal `.gh-pages` (default) folder
+- Copies `dist` folder to the temporal `.gh-pages` (default) folder
 - Inits the Git in this folder
-- Pulls commit history (if exists) for the branch that is used as a source for Github Pages – `gh-pages` (default)
+- Pulls commit history (if exists) for the branch that is used as a source for GitHub Pages – `gh-pages` (default)
 - Checks is it the last commit and are there changes, and if it's true, commits the changes with `Deploy` (default) message and pushes it to `gh-pages` (default) branch.
 
 ---
