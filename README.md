@@ -19,7 +19,7 @@ What you need to do:
     
     ![image](https://user-images.githubusercontent.com/16310547/211168429-4396a892-b80d-41e9-9b13-48699d038661.png)
 
-5. Now go to the Settings (`/settings/pages`) of your GitHub repository and select `gh-pages` branch as for GitHub Pages.
+5. Now go to the Settings (`/settings/pages`) of your GitHub repository and select the `gh-pages` branch as for GitHub Pages.
     
     ![image](https://user-images.githubusercontent.com/16310547/211168472-236d87c0-1d66-42ea-8acf-133dcf62ddb6.png)
     
