@@ -9,6 +9,7 @@ export default defineConfig({
   server: {
     open: "/"
   },
+  base: "./", // Required for GitHub Pages
   build: {
     target: "es2020",
     sourcemap: true,
