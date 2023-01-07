@@ -5,7 +5,8 @@ Vue.js example config for automatic building and deploying of an application to 
 What you need to do:
 
 1. Create `.github/workflows/blank.yml` file.
-    - _Like it is in [this repo](https://github.com/AlttiRi/vue-gh-pages-deploy-config)_
+    - _`blank.yml` is within `.github` and `workflows` folders._
+    - _Like it is in [this repo](https://github.com/AlttiRi/vue-gh-pages-deploy-config)._
 2. Fill it with [the follow content](https://github.com/AlttiRi/vue-gh-pages-deploy-config/blob/master/.github/workflows/blank.yml).
 3. Make a commit and push it to GitHub.
     - _Now the GitHub will start to use the config._
