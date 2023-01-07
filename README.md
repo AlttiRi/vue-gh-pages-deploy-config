@@ -1,5 +1,7 @@
 
-## Vue.js example GitHub Actions config for automatic builing and deploing of an application to GitHub Pages.
+## Vue.js GitHub Actions deploy config to GitHub Pages
+
+Vue.js example config for automatic builing and deploing of an application to GitHub Pages with GitHub Actions.
 
 What you need to do:
 
