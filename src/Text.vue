@@ -1,7 +1,7 @@
 <template>
-  <div class="text" @click="setNewColor">
-    <h1 title="Click on me">{{text}}</h1>
-  </div>
+  <h1 @click="setNewColor">
+    <span class="text" title="Click on me">{{text}}</span>
+  </h1>
 </template>
 
 <script setup lang="ts">
@@ -22,8 +22,8 @@ function setNewColor() {
 </script>
 
 <style scoped lang="scss">
-.text {
-  h1 {
+h1 {
+  .text {
     color: v-bind(color);
     cursor: pointer;
     user-select: none;
