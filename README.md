@@ -2,10 +2,25 @@
 
 Vue.js example config for automatic building and deploying of an application to GitHub Pages with GitHub Actions.
 
-What you need to do:
+If you have on GitHub a Vue.js applicattion source code, that can be compile into static site with `npm run build` command. 
+You can perform a few simple actions listed below to makes the project automatically hosted on GitHub Pages.
+
+0. Make sure that you have added all _source files_ in Git, so your project should be able to succesully build after clonning (`git clone`) and installing of dependencies (`npm ci`). 
+
+    _You can check it with the commands like these:_
+    ```bash
+    git clone https://github.com/alttiri/vue-gh-pages-deploy-config vue-example-project
+    cd vue-example-project
+    npm ci
+    npm run build
+    npm run serve
+    ```
+    _Just use your own GitHub repository URL instead of [this one](https://github.com/AlttiRi/vue-gh-pages-deploy-config)._
+
+**What you need to do:**
 
 1. Create `.github/workflows/blank.yml` file.
-    - _`blank.yml` is within `.github` and `workflows` folders._
+    - _Note that `blank.yml` file is within `.github` and `workflows` folders._
     - _Like it is in [this repo](https://github.com/AlttiRi/vue-gh-pages-deploy-config)._
 2. Fill it with [the follow content](https://github.com/AlttiRi/vue-gh-pages-deploy-config/blob/master/.github/workflows/blank.yml).
 3. Make a commit and push it to GitHub.
