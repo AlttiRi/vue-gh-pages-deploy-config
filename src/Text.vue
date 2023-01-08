@@ -5,19 +5,23 @@
 </template>
 
 <script setup lang="ts">
-import {ref, Ref} from "vue";
-import {getRandomColor} from "./util.js";
+import {ref, Ref, toRefs} from "vue";
+import {getRandomColor, webBlue, webColor} from "./util.js";
 
-defineProps({
+const props = defineProps({
   text: {
     type: String,
     required: true
   }
 });
 
+const {text} = toRefs(props)
+console.log(...webBlue(text.value));
+
 const color: Ref<string> = ref("#000");
 function setNewColor() {
   color.value = getRandomColor();
+  console.log(...webColor(text.value, color.value));
 }
 </script>
 
