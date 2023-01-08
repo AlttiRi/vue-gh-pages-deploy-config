@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 import {ref, Ref, toRefs} from "vue";
-import {getRandomColor, webBlue, webColor} from "./util.js";
+import {getRandomColor, webBlue, webColor} from "../util.js";
 
 const props = defineProps({
   text: {

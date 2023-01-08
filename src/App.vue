@@ -1,9 +1,9 @@
 <template>
-  <Text :text="'Hello World!'"/>
+  <ColoredText :text="'Hello World!'"/>
 </template>
 
 <script setup>
-import Text from "./Text.vue";
+import ColoredText from "./components/ColoredText.vue";
 </script>
 
 <style>
