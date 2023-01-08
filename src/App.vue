@@ -1,9 +1,11 @@
 <template>
   <ColoredText :text="'Hello World!'"/>
+  <ClickCounter/>
 </template>
 
 <script setup>
 import ColoredText from "./components/ColoredText.vue";
+import ClickCounter from "./components/ClickCounter.vue";
 </script>
 
 <style>
