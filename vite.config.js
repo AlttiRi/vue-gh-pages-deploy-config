@@ -24,9 +24,9 @@ export default defineConfig({
         ]),
       ],
       output: {
-        entryFileNames: `[name].js`, // `[name].[format].js`
+        entryFileNames: `[name].js`, // `[name].[hash].[format].js`
         chunkFileNames: `[name].js`,
-        assetFileNames: `[name].[ext]`
+        assetFileNames: `[name].[ext]`,
       }
     },
     minify: "terser",
