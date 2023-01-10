@@ -2,8 +2,7 @@
 
 Vue.js example config for automatic building and deploying of an application to GitHub Pages with GitHub Actions.
 
-If you have on GitHub a Vue.js applicattion source code, that can be compile into a static site with `npm run build` command. 
-You can perform a few simple actions listed below to makes the project automatically hosted on GitHub Pages.
+If you have on GitHub a Vue.js applicattion source code, that can be compile into a static site with `npm run build` command, you can perform a few simple actions listed below to makes the project automatically hosted on GitHub Pages.
 
 0. Make sure that you have added all _source files_ in Git, so your project should be able to succesully build after clonning (`git clone`) and installing of dependencies ([`npm ci`](https://docs.npmjs.com/cli/v9/commands/npm-ci)) from `package-lock.json` file. 
 
