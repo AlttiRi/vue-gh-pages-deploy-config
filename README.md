@@ -29,7 +29,8 @@ If you have on GitHub a Vue.js applicattion source code, that can be compile int
     - _You should see the follow:_
     
     ![image](https://user-images.githubusercontent.com/16310547/211168995-2eea663f-25f1-45a8-893d-9549e779d9b3.png)
-    - _..._
+    
+    _—_
     
     ![image](https://user-images.githubusercontent.com/16310547/211168429-4396a892-b80d-41e9-9b13-48699d038661.png)
 
