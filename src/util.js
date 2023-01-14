@@ -1,4 +1,4 @@
-/** 
+/**
  * Returns random CSS color value as HSLA.
  * @return {string}
  */
